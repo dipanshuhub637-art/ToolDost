@@ -1,142 +1,95 @@
-Privacy Policy for Tool Dost : Smart Tools & Utilities
-Effective Date: May 2026
-Welcome to Tool Dost : Smart Tools & Utilities, developed by DIPANSHU HUB.
-Your privacy is important to us. This Privacy Policy explains how our app handles permissions, data, and user privacy.
+# PRIVACY POLICY
 
-1. Information We Collect
-Tool Dost is designed to work mostly offline and store data locally on your device.
-We do not collect, store, or sell personal user data on our servers.
-Optional Name
-When opening the app for the first time, users may optionally enter their name.
-This step can also be skipped.
-The entered name is stored only on the user's device and is never uploaded to our servers.
+**App Name:** Tool Dost
 
-2. Permissions Used
-Camera Permission
-Used only for:
+**App Version:** 1.0
 
+**Developer Name:** Dipanshu Hub
 
-QR Code Scanning
+**Official Support Email:** support.dipanshuhub@gmail.com
 
+**Effective Date:** May 31, 2026
 
-Document Scanner (OCR)
+---
 
+### 1. Introduction & Overview
 
-The camera is never used in the background.
+Welcome to **Tool Dost**, an all-in-one utility application designed and developed by **Dipanshu Hub** ("we", "our", or "us"). We are highly committed to protecting your privacy and ensuring transparency regarding how our application operates. This Privacy Policy outlines our data processing standards, specifically focusing on why certain Android system permissions are required and how we enforce complete data minimization in accordance with the Google Play Console Developer Program Policies.
 
-Microphone Permission
-Used only for:
+**Core Privacy Principle: Offline & Local Processing**
+Tool Dost is built fundamentally as a local, client-side utility suite. The vast majority of operations—including image resizing, calculations, document scanning, text parsing, and currency tracking—happen directly on your mobile device. We do not host user content on cloud servers, nor do we sell, trade, or transfer your personal data to external parties.
 
+---
 
-Voice Recorder feature
+### 2. Required Permissions & Data Utilization
 
+To deliver functionality across its 50 unique modules, Tool Dost requests certain system permissions. Below is an exhaustive breakdown detailing the specific permissions required, the corresponding tools that use them, and our strict operational constraints:
 
-Audio recordings remain stored locally on the user's device unless the user chooses to share them.
+* **CAMERA Permission (`android.permission.CAMERA`)**
+* **Associated Tools:** QR Scanner, Document Scanner (OCR), Mirror, IR Tester.
+* **Purpose:** Allows the device camera to capture visual inputs local to the device. Images/video frames are processed in real-time in volatile memory to detect codes or extract text, and are never transmitted over the internet.
 
-Storage / Media Access
-Used for:
 
+* **RECORD_AUDIO Permission (`android.permission.RECORD_AUDIO`)**
+* **Associated Tools:** Voice Recorder, Speech to Text, Sound Meter.
+* **Purpose:** Enables the microphone to monitor ambient sound decibels (Sound Meter) or record voice clips. Audio streams are captured solely at the explicit trigger of the user and saved exclusively within local storage.
 
-Saving images
 
+* **READ_EXTERNAL_STORAGE / READ_MEDIA_IMAGES Permission**
+* **Associated Tools:** Image Compressor, Passport Resizer, Image to PDF, BG Remover, Format Changer.
+* **Purpose:** Grants permission to select existing files and images for editing, format alteration, compression, or PDF assembly. File processing is completely restricted to local runtime.
 
-Reading selected files
 
+* **WRITE_EXTERNAL_STORAGE Permission**
+* **Associated Tools:** All Document, Audio, & PDF Export Tools.
+* **Purpose:** Required for saving newly compiled PDFs, resized photos, saved voice notes, and exported notepad TXT files onto your device's internal or external directory.
 
-PDF creation
 
+* **INTERNET Permission (`android.permission.INTERNET`)**
+* **Associated Tools:** Translator, Currency, Internet Speed.
+* **Purpose:** Utilized exclusively to pull live API exchange rates for currency conversion, parse lightweight translations via web-based engines, and perform ping/speed verification tests.
 
-Secure Space storage
 
+* **VIBRATE Permission (`android.permission.VIBRATE`)**
+* **Associated Tools:** Pro Counter, Reaction Tester, Stopwatch.
+* **Purpose:** Invokes system haptic drivers to provide tangible, immediate tactile confirmation to the user upon screen tap interactions.
 
-All files remain on the user's device.
 
-Internet Permission
-Used for:
 
+---
 
-Google AdMob advertisements
+### 3. Play Console Compliance & Data Safety Declaration
 
+In accordance with Google Play's Data Safety form requirements, we declare the following handling architecture:
 
-App functionality requiring internet
+* **Data Collection:** Tool Dost does not silently or autonomously harvest, aggregate, or profile user metadata, account information, or personal identifiers.
+* **Data Sharing:** Zero third-party programmatic data sharing is implemented. No advertisement networks or analytical software are executing tracking scripts that bridge user data across other applications or websites.
+* **Data Retention:** Since files and inputs are handled locally, the lifespan of user-generated data (e.g., Notepad notes, To-Do lists, local App History) is entirely dictated by the user. Deleting notes or clearing the application storage completely purges all data from the device.
 
+---
 
+### 4. Children's Privacy (COPPA & GDPR Compliance)
 
-3. Advertisements
-Tool Dost uses Google AdMob to display ads.
-Google AdMob may collect certain non-personal information such as:
+Tool Dost does not knowingly collect or seek personal information from individuals under the age of 13 (or the equivalent threshold in respective legal jurisdictions). Because our utility tools process structural operations entirely offline without requiring user registration, authentication tokens, or profile generation, our application natively limits risk factor exposures for underage groups and complies with the Children’s Online Privacy Protection Act (COPPA).
 
+---
 
-Device information
+### 5. Security of Information
 
+We deploy standard device-level encryption safety boundaries. For modules such as **"Secure Space"** and **"Text Encrypt"**, the privacy layer is reinforced by localized user passwords or device cryptographic protocols. However, security remains a shared framework; users are highly encouraged to maintain secure lock screens and protect their hardware devices from unauthorized structural access.
 
-Advertising ID
+---
 
+### 6. Structural Modifications to this Document
 
-App interaction data
+We reserve the right to revise, polish, or append clauses to this Privacy Policy at any time to align with upcoming Android operating system paradigms, target API level bumps, or updated Google Play Developer Policy mandates. Any modifications will instantly go live upon the publication of an updated version binary (e.g., Version 1.1+) inside the Google Play Console ecosystem.
 
+---
 
-This information is handled according to Google's Privacy Policy.
-Learn more:
-Google Privacy Policy
+### 7. Formal Developer Contact Information
 
-4. Secure Space Feature
-Tool Dost includes a Secure Space feature for storing private files.
+For inquiries, feedback, or verification requests concerning the implementation of system permissions or overall data safety practices within Tool Dost, please contact the developer directly through the official communication channel:
 
-
-Files are stored locally on the user's device
-
-
-Data remains encrypted and private
-
-
-We do not access, upload, or view user files
-
-
-Users are responsible for keeping their passwords or access credentials safe.
-
-5. Data Storage
-All app data including:
-
-
-Images
-
-
-Notes
-
-
-Voice recordings
-
-
-QR history
-
-
-Secure files
-
-
-Preferences
-
-
-is stored locally on the user's device.
-We do not maintain cloud storage or external servers for user data.
-
-6. Children's Privacy
-Tool Dost does not knowingly collect personal information from children.
-
-7. Third-Party Services
-This app may use third-party services including:
-
-
-Google AdMob
-
-
-These services may collect limited information according to their own privacy policies.
-
-8. Changes to This Privacy Policy
-We may update this Privacy Policy from time to time.
-Changes will be reflected on this page with an updated effective date.
-
-9. Contact Us
-If you have any questions or support requests, contact:
-DIPANSHU HUB
-📧 support.dipanshuhub@gmail.com
+* **Developer Name:** Dipanshu Hub
+* **Official Support Email:** support.dipanshuhub@gmail.com
+* **App Target:** Tool Dost (v1.0) — Utilities Category
